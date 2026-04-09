@@ -97,6 +97,10 @@ Cette dernière étape a permis de factoriser le code HTML pour respecter le pri
    - ![Migration base de donnée](Atelier3/Migration%20base%20de%20donne.png)
    - ![Migration réussie dans postgresql](Atelier3/Migration%20reussi%20dans%20postgresql.png)
 
+4. **Résultat Final :**
+   - Rendu final de l'application web.
+   - ![Affichage final de la page](Atelier3/Affichage%20final%20de%20la%20page.png)
+
 ---
 
 ## 🛠️ Technologies Utilisées
