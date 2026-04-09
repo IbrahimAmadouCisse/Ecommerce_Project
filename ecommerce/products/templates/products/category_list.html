@@ -1,0 +1,7 @@
+<h1>Categories</h1>
+<ul>
+    {% for category in categories %}
+        <li><a href="{% url 'category_detail' category.id %}">{{ category.name }}</a></li>
+    {% endfor %}
+</ul>
+<a href="{% url 'category_list' %}">Retour aux catégories</a>

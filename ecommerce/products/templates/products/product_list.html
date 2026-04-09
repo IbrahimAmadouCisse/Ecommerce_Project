@@ -1,0 +1,30 @@
+{% extends 'products/base.html' %}
+
+{% block title %}Nos Produits{% endblock %}
+
+{% block content %}
+
+<h1>Nos Produits</h1>
+<a href="{% url 'category_list' %}">Voir les catégories</a>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+    {% for product in products %}
+        <div class="col">
+            <div class="card h-100">
+                {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}" style="object-fit: cover; height: 200px;">
+                {% else %}
+                    <img src="https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/32/859376/1.jpg?8593" class="card-img-top" alt="Exemple de produit" style="object-fit: cover; height: 200px;">
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{% url 'product_detail' product.id %}" class="text-decoration-none">{{ product.name }}</a></h5>
+                    <p class="card-text fw-bold fs-5">{{ product.price }} €</p>
+                    <p class="card-text text-muted">Catégorie: <a href="{% url 'category_detail' product.category.id %}" class="text-decoration-none">{{ product.category.name }}</a></p>
+                </div>
+            </div>
+        </div>
+    {% empty %}
+        <div class="col-12"><p>Aucun produit disponible.</p></div>
+    {% endfor %}
+</div>
+{% endblock %}

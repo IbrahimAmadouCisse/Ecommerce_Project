@@ -1,0 +1,20 @@
+{% extends 'products/base.html' %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+<h1>{{ product.name }}</h1>
+
+{% if product.image %}
+    <img src="{{ product.image.url }}" width="300" alt="{{ product.name }}" >
+{% else %}
+    <img src="https://ma.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/32/859376/1.jpg?8593" width="300" alt="Exemple de produit" >
+{% endif %}
+<p><strong>Description:</strong> {{ product.description }}</p>
+<p><strong>Prix:</strong> {{ product.price }}</p>
+<p><strong>Stock:</strong> {{ product.stock }}</p>
+<p><strong>Catégorie:</strong> <a href="{% url 'category_detail' product.category.id %}">{{ product.category.name }}</a></p>
+    <a href="{% url 'category_detail' product.category.id %}">{{ product.category.name }}</a>
+<p/>
+<a href="{% url 'product_list' %}">Retour à la liste des produits</a>
+{% endblock %}

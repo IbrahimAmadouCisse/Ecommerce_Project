@@ -1,0 +1,26 @@
+# Environnement virtuel
+myenv/
+env/
+.env/
+venv/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Fichiers médias
+media/
+ecommerce/media/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
