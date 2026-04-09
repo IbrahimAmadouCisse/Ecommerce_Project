@@ -92,7 +92,12 @@ Cette dernière étape a permis de factoriser le code HTML pour respecter le pri
    - ![Product detail html](Atelier3/2.Product_detail.png)
    - ![Product list html](Atelier3/3.Product_list.html.png)
 
-3. **Résultat Final :**
+3. **Vérification de la base de données :**
+   - Preuve des migrations vers la base de données PostgreSQL finales.
+   - ![Migration base de donnée](Atelier3/Migration%20base%20de%20donne.png)
+   - ![Migration réussie dans postgresql](Atelier3/Migration%20reussi%20dans%20postgresql.png)
+
+4. **Résultat Final :**
    - Rendu final de l'application web.
    - ![Affichage final de la page](Atelier3/Affichage%20final%20de%20la%20page.png)
 
