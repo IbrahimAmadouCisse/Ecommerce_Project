@@ -31,7 +31,7 @@ Dans cette première étape, la structure de base du projet a été mise en plac
    - Création de fonctions basiques dans `views.py` (de l'app `products`).
    - ![Ajout de fonctions dans views.py](Atelier1/ajout%20de%20fonctions%20dans%20views.py%20au%20niveau%20de%20products.png)
    - Configuration des URLs au niveau de l'application `products` et liaison au fichier `urls.py` principal du projet.
-   - ![Création et modification urls.py products](Atelier1/creation%20et%20modification%20de%20urls.py%20au%20niveau%20de%20products%20.png)
+   - ![Création et modification urls.py products](Atelier1/creation%20et%20modification%20de%20urls.py%20au%20niveau%20de%20products.png)
    - ![Modification urls.py ecommerce](Atelier1/modification%20urls.py%20dans%20le%20dossier%20ecommerce.png)
 
 4. **Templates Initiaux :** Création des fichiers HTML basiques pour l'affichage (`product_list.html` et `product_detail.html`).
@@ -54,8 +54,8 @@ Cette étape s'est concentrée sur la persistance des données, la relations ent
 
 2. **Migrations et Mise à Jour de la Base de Données :**
    - ![Migration 1](Atelier2/2.Migration%20png.png)
-   - ![Création table product](Atelier2/3.creation%20table%20product%20.png)
-   - ![Mise a jour base de donnees](Atelier2/5.%20mise%20a%20jour%20de%20la%20base%20de%20donnee%20.png)
+   - ![Création table product](Atelier2/3.creation%20table%20product.png)
+   - ![Mise a jour base de donnees](Atelier2/5.%20mise%20a%20jour%20de%20la%20base%20de%20donnee.png)
 
 3. **Interface d'Administration :**
    - Enregistrement des modèles et personnalisation dans `admin.py`.
@@ -76,7 +76,7 @@ Cette étape s'est concentrée sur la persistance des données, la relations ent
    - ![Modification views.py](Atelier2/7.modification%20du%20fichier%20views.py%20dans%20products.png)
    - ![Modification urls.py products](Atelier2/8.modification%20du%20fichier%20urls.py%20dans%20products.png)
    - ![Modification urls.py ecommerce](Atelier2/14.modification%20de%20urls.py%20du%20dossier%20ecommerce.png)
-   - ![Modification product_list.html](Atelier2/9.modification%20de%20product_list.html%20.png)
+   - ![Modification product_list.html](Atelier2/9.modification%20de%20product_list.html.png)
    - ![Modification category_list.html](Atelier2/10.modification%20de%20category_list.html.png)
    - ![Modification product_detail.html](Atelier2/11.modification%20de%20product_detail.html.png)
 
